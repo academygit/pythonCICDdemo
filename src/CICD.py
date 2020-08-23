@@ -1,7 +1,4 @@
-import logging
-
 def start():
-    logging.getLogger()
     return "Program has started"
 
 
