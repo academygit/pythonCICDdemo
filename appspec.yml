@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /python_demo
+    destination: /home/ec2-user/python_demo
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
